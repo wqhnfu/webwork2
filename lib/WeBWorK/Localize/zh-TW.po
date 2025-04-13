@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-03-15 23:25+0800\n"
+"PO-Revision-Date: 2025-04-11 16:27+0800\n"
 "Last-Translator: Wei-Qiang Huang <wqhnfu@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -56,15 +56,15 @@ msgstr "不正確次數"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Stats/set_stats.html.ep:173
 msgid "% Average with Review"
-msgstr "審查百分數平均"
+msgstr "批改百分比平均"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Stats/problem_stats.html.ep:66
 msgid "% Score with Review"
-msgstr "審查百分數"
+msgstr "批改百分比分數"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:479
 msgid "% Score:"
-msgstr "百分數分數："
+msgstr "百分比分數："
 
 #. ($achievement->{points})
 #: /opt/webwork/webwork2/templates/ContentGenerator/Achievements/achievement_badges.html.ep:24
@@ -373,7 +373,7 @@ msgstr "<p>這裡設置是否啟用減分系統。如果啟用，你需要設定
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ConfigValues.pm:605
 msgid "<p>When viewing a problem, users may choose different methods of rendering formulas via an options box in the left panel. Here, you can adjust what display modes are listed.</p><p>The display modes are</p><ul><li>plainText: shows the raw LaTeX strings for formulas.</li><li>images: produces images using the external programs LaTeX and dvipng.</li><li>MathJax: uses javascript to render mathematics.</li></ul><p>You must use at least one display mode. If you select only one, then the options box will not give a choice of modes (since there will only be one active).</p>"
-msgstr "<p>在查看問題時，使用者可以通過左側面板中的選項框選擇不同的公式渲染方式。你可以在此調整什麼列出顯示模式。</p><p>顯示模式包括</p><ul><li>明文：顯示公式的原始 LaTeX 字串。</li><li>圖片：使用外部程式 LaTeX 和 dvipng 產生圖片。</li><li>MathJax：使用 JavaScript 渲染數學公式。</li></ul><p>你必須使用至少一種顯示模式。如果只選擇一種顯示模式，那麼選項框將不會提供模式選擇（因為只有一種是啟用的）。</p>"
+msgstr "<p>在查看問題時，使用者可以通過左側面板中的選項框選擇不同呈現公式的方法。你可以在此調整什麼列出顯示模式。</p><p>顯示模式包括</p><ul><li>plainText：顯示公式的原始 LaTeX 字串。</li><li>images：使用外部程式 LaTeX 和 dvipng 產生圖片。</li><li>MathJax：使用 JavaScript 呈現數學公式。</li></ul><p>你必須使用至少一種顯示模式。如果只選擇一種顯示模式，那麼選項框將不會提供模式選擇（因為只有一種是啟用的）。</p>"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/GatewayQuiz.pm:1430
 msgid "<strong>Warning</strong>: There may be something wrong with a question in this test. Please inform your instructor including the warning messages below."
@@ -526,7 +526,7 @@ msgstr "一個測驗會被分成多個頁面，每頁有這麼多題目。學生
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:321
 msgid "A test may be configured to allow students one or more versions.  For each version, this is the number of times you will allow them to click to have that version graded.  Depending on other settings, they may or may not be able to see scores and feedback following each grading. Use \"0\" to indicate there is no cap on the number of graded submissions."
-msgstr "可以將測驗配置為允許學生使用一個或多個版本。對於每個版本，這是你允許他們點擊對該版本評分的次數。根據其他設定，他們可能會，也可能不會，看到每次評分後的分數和反饋。使用「0」表示對評分提交次數沒有限制。"
+msgstr "可以將測驗配置為允許學生使用一個或多個版本。對於每個版本，這是你允許他們點擊對該版本評分的次數。根據其他設定，他們可能會，也可能不會，看到每次評分後的分數和反饋。使用「0」表示對評分繳交次數沒有限制。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorAchievementList.html.ep:42
 msgid "A unique key identifying the achievement."
@@ -1592,15 +1592,15 @@ msgstr "自動將全形 Unicode 字元轉換為對應的 ASCII 字元"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:95
 msgid "Automatically render all problems in the set on this page when \"Save Changes\" or \"Reset Form\" is clicked."
-msgstr "當點擊「儲存變更」或「重置表單」時，自動在這個頁面上渲染題組中的所有問題。"
+msgstr "當點擊「儲存變更」或「重置表單」時，自動在這個頁面上呈現題組中的所有問題。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:680
 msgid "Automatically render problems on page load"
-msgstr "頁面載入時自動渲染問題"
+msgstr "頁面載入時自動呈現問題"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:93
 msgid "Automatically render problems on page load."
-msgstr "頁面載入時自動渲染問題。"
+msgstr "頁面載入時自動呈現問題。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Problem/checkboxes.html.ep:21
 msgid "Auxiliary Resources"
@@ -1680,7 +1680,7 @@ msgstr "預設狀況下，反饋會發送給所有具備接收反饋權限的使
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/archive.html.ep:25
 msgid "By extension"
-msgstr "延伸"
+msgstr "副檔名"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Scoring.pm:218
 msgid "CLOSE DATE"
@@ -1722,7 +1722,7 @@ msgstr "無法複製檔案：%1"
 #. ($archive, $error)
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm:443
 msgid "Can't create archive \"%1\": %2"
-msgstr "無法建立封存檔「%1」：%2"
+msgstr "無法建立壓縮檔「%1」：%2"
 
 #. ($courseID, $@)
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/upgrade_course_form.html.ep:28
@@ -2030,7 +2030,7 @@ msgstr "班級名單檔（\".lst \"）"
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/unarchive_course_confirm.html.ep:14
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/unarchive_course_form.html.ep:42
 msgid "Clean course after unarchiving (remove student users, scoring files, log files)"
-msgstr "解除封存後清除課程（刪除學生使用者、評分檔、日誌檔）"
+msgstr "解除封存後清除課程（刪除學生使用者、分數檔、日誌檔）"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker/top_row.html.ep:91
 msgid "Clear Problem Display"
@@ -3383,7 +3383,7 @@ msgstr "電子郵件："
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorSendMail.html.ep:28
 msgid "Emails can contain personalized data, such as name, section, or status.  Click \"List of insertable macros\" for a full list available variables.  Additional personal data can be included by using a merge file.  A merge file is a CSV file located in the [Scoring] directory in which the first column is the student id, followed by additional data (such as student grades).  This data is identified by which column it is in, for instance if the scores where in the 4th column of the merge file, insert them into an email using the variable $COL[4].  The \"Scoring Tools\" page can export grades into a CSV that can be used as a merge file.  Upload customized merge files with the \"File Manager\"."
-msgstr "電子郵件可以包含個人化資料，如姓名、班別或狀況。點擊「可插入巨集清單」查看可用變數的完整清單。其他的個人資料可以使用合併檔來包含。合併檔是個位於 [Scoring] 目錄中的 CSV 檔，其中第一欄是學生代號，後面是其他資料（如學產生績）。這些資料根據其所在的欄位來識別，例如，如果分數在合併檔的第 4 行，則使用變數 $COL[4] 將它們插入到電子郵件中。「評分工具」頁面可以將成績匯出為可用作合併檔的 CSV 。使用「檔案管理器」上傳自訂的合併檔。"
+msgstr "電子郵件可以包含個人化資料，如姓名、班別或狀況。點擊「可插入巨集清單」查看可用變數的完整清單。其他的個人資料可以使用合併檔來包含。合併檔是個位於 [Scoring] 目錄中的 CSV 檔，其中第一欄是學生代號，後面是其他資料（如學產生績）。這些資料根據其所在的欄位來識別，例如，如果分數在合併檔的第 4 行，則使用變數 $COL[4] 將它們插入到電子郵件中。「分數工具」頁面可以將成績匯出為可用作合併檔的 CSV 。使用「檔案管理器」上傳自訂的合併檔。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SendMail/preview.html.ep:11
 msgid "Emails to be sent to the following:"
@@ -3810,7 +3810,7 @@ msgstr "無法刪除檔案 %1：%2"
 #. ($@)
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/CourseAdmin.pm:1306
 msgid "Failed to remove scoring files: %1"
-msgstr "無法刪除評分檔：%1"
+msgstr "無法刪除分數檔：%1"
 
 #. ($@)
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm:245
@@ -3841,7 +3841,7 @@ msgstr "反饋"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ConfigValues.pm:829
 msgid "Feedback by Section."
-msgstr "按班級反饋。"
+msgstr "按班別反饋。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/CourseAdmin.pm:2470
 msgid "Field is ok"
@@ -4205,7 +4205,7 @@ msgstr "每個版本的成績繳交"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/ProblemSet/problem_list.html.ep:38
 msgid "Grader"
-msgstr "評分器"
+msgstr "評分"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/Utils/Routes.pm:277
 msgid "Grades"
@@ -4360,15 +4360,15 @@ msgstr "對學生隱藏提示"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Problem/instructor_buttons.html.ep:6
 msgid "Hide Problem Grader"
-msgstr "隱藏問題評分人員"
+msgstr "隱藏問題評分"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:684
 msgid "Hide Problem Graders"
-msgstr "隱藏問題評分人員"
+msgstr "隱藏問題評分"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:61
 msgid "Hide all rendered problems on the page."
-msgstr "隱藏頁面上所有渲染的問題。"
+msgstr "隱藏頁面上所有呈現的問題。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker/problem_row.html.ep:252
 msgid "Hide this problem"
@@ -4490,7 +4490,7 @@ msgstr "如果你勾選上方的方框，則在此瀏覽器中登入時將暫時
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:152
 msgid "If you click on the \"Grade Problem\" icon to the right of the problem number, then the problem will open in the manual problem grader. This page shows the rendered problem and lists all students assigned to the set and the last answer the students entered for the problem. You can then change the recorded scores for students on this problem and provide instructor feedback comments."
-msgstr "如果你點擊題號右側的「評分問題」圖示，該問題將會在手動評分器中開啟。這個頁面會顯示渲染後的問題，並列出指派到該題組的所有學生及其最後輸入的答案。你可以在此修改學生在該問題上的分數，並提供講師反饋評註。"
+msgstr "如果你點擊題號右側的「評分問題」圖示，該問題將會在手動評分器中開啟。這個頁面會顯示呈現的問題，並列出指派到該題組的所有學生及其最後輸入的答案。你可以在此修改學生在該問題上的分數，並提供講師反饋評註。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:146
 msgid "If you click on the \"Open in New Window\" icon to the right of the problem number, then the problem will open in the actual homework set in a new tab or window."
@@ -4722,7 +4722,7 @@ msgstr "工作按 %1 以 %plural(%2, 升序, 降序) 排序，接著按 %3 以 %
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:461
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:472
 msgid "Jump to Problem:"
-msgstr "前往問題："
+msgstr "跳至問題："
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:271
 msgid "Just in Time Assessment and Review"
@@ -4923,7 +4923,7 @@ msgstr "從成就中排除的題組清單"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/Options.html.ep:56
 msgid "Live equation rendering"
-msgstr "即時方程式渲染"
+msgstr "即時方程式呈現"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/PGProblemEditor.html.ep:165
 msgid "Loading..."
@@ -5069,7 +5069,7 @@ msgstr "巨集"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/refresh.html.ep:51
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/refresh.html.ep:53
 msgid "Make Archive"
-msgstr "建立封存檔"
+msgstr "建立壓縮檔"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/rename_course_confirm_short.html.ep:27
 msgid "Make changes"
@@ -5086,7 +5086,7 @@ msgstr "將你正在編輯的檔案複製一份放在相應課程的成就通知
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorPGProblemEditor.html.ep:156
 msgid "Makes a new copy of the file you are editing at the location relative to the course's templates ([TMPL]) directory. You may choose to replace the current problem in the current set, append to the end to then end of the current set as a new problem, or create a problem that is not attached to a problem set."
-msgstr "將你正在編輯的檔案複製一份放在相應課程的暫存（[TMPL]）目錄位置。你可以選擇替換目前題組中的問題，附加為當前題組的新問題，或建立一個未附加到問題題組的問題。"
+msgstr "將你正在編輯的檔案複製一份放在相應課程的暫存目錄（[TMPL]）位置。你可以選擇替換目前題組中的問題，附加為當前題組的新問題，或建立一個未附加到問題題組的問題。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Base/admin_links.html.ep:31
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/manage_lti_course_map_form.html.ep:1
@@ -5206,7 +5206,7 @@ msgstr "訊息為空。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorSendMail.html.ep:50
 msgid "Messages can be saved to a message file (which must end in the \".msg\" extension).  Use the \"Message file\" drop down menu to select which message file to load, or \"None\" to use a blank message. To save a new message, use the \"Save as\" button after entering in a valid filename.  The \"Save as\" button will not overwrite currently saved messages.  To edit a currently saved message first select it using the drop down menu, then click the \"Save\" button to save any changes.  Use the \"File Manager\" to delete messages, located in the \"[TMPL]/email\" directory."
-msgstr "訊息可以儲存到訊息檔（副檔名必須為 \".msg\"）。使用「訊息檔」下拉選單選擇要載入的訊息檔，或者選擇「無」以使用空白訊息。在輸入有效的檔名後使用「另存」按鈕儲存新的訊息。「另存」按鈕不會覆蓋目前已儲存的訊息。要編輯當前已儲存的訊息，首先在下拉選單中選擇它，然後點擊「儲存」按鈕以儲存任何變更。使用「檔案管理器」刪除位於 \"[TMPL]/email\" 目錄中的訊息。"
+msgstr "訊息可以儲存到訊息檔（副檔名必須為 \".msg\"）。使用「訊息檔」下拉選單選擇要載入的訊息檔，或者選擇「無」以使用空白訊息。在輸入有效的檔名後使用「另存」按鈕儲存新的訊息。「另存」按鈕不會覆蓋目前已儲存的訊息。要編輯當前已儲存的訊息，首先在下拉選單中選擇它，然後點擊「儲存」按鈕以儲存任何變更。使用「檔案管理器」刪除位於 「[TMPL]/email」目錄中的訊息。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Base/error_output.html.ep:25
 #: /opt/webwork/webwork2/templates/ContentGenerator/Base/warning_output.html.ep:22
@@ -5624,7 +5624,7 @@ msgstr "沒有為位置 %1 的有效變更繳交。"
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Grades.pm:266
 #: /opt/webwork/webwork2/templates/ContentGenerator/ProblemSet/version_list.html.ep:241
 msgid "No versions of this test have been taken."
-msgstr "沒有參加此測驗的版本。"
+msgstr "該測驗尚無任何版本的作答。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/StudentProgress.pm:263
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker/view_problems_line.html.ep:16
@@ -5795,7 +5795,7 @@ msgstr "開啟"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/ProblemSets.html.ep:30
 msgid "Open Assignments"
-msgstr "開啟作業"
+msgstr "開放作業"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:123
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetList.pm:347
@@ -5830,11 +5830,11 @@ msgstr "開啟。"
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/ProblemSets.pm:163
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/ProblemSets.pm:183
 msgid "Open. Due %1."
-msgstr "開始。截止 %1。"
+msgstr "開啟。截止 %1。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/ProblemSet.pm:273
 msgid "Open. Submitted."
-msgstr "開啟。已提交。"
+msgstr "開啟。已繳交。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/UserDetail.pm:32
 msgid "Open:"
@@ -5850,7 +5850,7 @@ msgstr "隨機排序問題"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:362
 msgid "Order problems randomly or not.  If you will be manually reviewing student answers, you might not want to order problems randomly to facilitate assembly line grading."
-msgstr "隨機排序問題或不隨機排序。如果你將手動審查學生答案，你可能不希望隨機排序問題，以便評分流程。"
+msgstr "隨機排序問題或不隨機排序。如果你將手動批改學生答案，你可能不希望隨機排序問題，以便評分流程。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/JobManager/sort_form.html.ep:20
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/JobManager/sort_form.html.ep:50
@@ -5879,24 +5879,24 @@ msgstr "整體結果"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Stats/set_stats.html.ep:92
 msgid "Overall Set Grades"
-msgstr "總體題組成績"
+msgstr "整體題組成績"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Stats/set_stats.html.ep:121
 msgid "Overall Success Index"
-msgstr "總體成功指數"
+msgstr "整體成功指數"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm:656
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm:666
 msgid "Overwrite"
-msgstr "覆蓋"
+msgstr "覆寫"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/archive.html.ep:37
 msgid "Overwrite existing archive"
-msgstr "覆蓋現有封存檔"
+msgstr "覆寫現有封存檔"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/refresh.html.ep:107
 msgid "Overwrite existing files silently"
-msgstr "靜默覆蓋現有檔案"
+msgstr "直接覆寫現有檔案"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/PGProblemEditor/hardcopy_form.html.ep:41
 msgid "PDF"
@@ -5940,7 +5940,7 @@ msgstr "PG 問題檔案"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Problem.pm:666
 msgid "PG question failed to render"
-msgstr "PG 問題渲染失敗"
+msgstr "PG 問題呈現失敗"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Problem.pm:680
 msgid "PG question processing error messages"
@@ -6310,7 +6310,7 @@ msgstr "前一個問題"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker.html.ep:74
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker/top_row.html.ep:94
 msgid "Previous page"
-msgstr "前一頁"
+msgstr "上一頁"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetList.html.ep:45
 msgid "Primary Actions"
@@ -6416,7 +6416,7 @@ msgstr "問題檔案的程式碼中可能包含提示。使用此選項可對學
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemGrader.html.ep:239
 msgid "Problem has a different source file than the currently rendered problem."
-msgstr "問題的原始檔與目前渲染的問題不同。"
+msgstr "問題的原始檔與目前呈現的問題不同。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemGrader.html.ep:233
 msgid "Problem has an essay answer that needs to be graded."
@@ -6428,7 +6428,7 @@ msgstr "問題來源自分組題組"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Stats/problem_stats.html.ep:89
 msgid "Problem source is drawn from a grouping set and can not be directly rendered or edited."
-msgstr "問題來源自分組題組，且無法直接渲染或編輯。"
+msgstr "問題來源自分組題組，且無法直接呈現或編輯。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Grades/student_stats.html.ep:12
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemGrader/siblings.html.ep:11
@@ -6470,7 +6470,7 @@ msgstr "每頁的問題"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/Levels.html.ep:25
 msgid "Problems with this rating should only require direct memory of a fact. Examples might be a specific value of a function, or the statement of a definition. Very few WeBWorK problems fall into this category."
-msgstr "此類評分的問題應該只需要直接記住一個事實。例如，函數的特定數值，或定義的陳述。很少有 WeBWorK 的問題屬於這一類。"
+msgstr "此類等級的問題應該只需要直接記住一個事實。例如，函數的特定數值，或定義的陳述。很少有 WeBWorK 的問題屬於這一類。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/Localize.pm:71
 msgid "Proctor"
@@ -6658,11 +6658,11 @@ msgstr "重新整理清單"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/ProblemSets/set_list_row.html.ep:10
 msgid "Regular Assignment"
-msgstr "標準作業"
+msgstr "正規作業"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/ProblemSets.html.ep:38
 msgid "Regular Assignments"
-msgstr "標準作業"
+msgstr "正規作業"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:245
 msgid "Relax Location Restrictions"
@@ -6727,28 +6727,28 @@ msgstr "將檔案重新命名為："
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:484
 msgid "Render"
-msgstr "顯示"
+msgstr "呈現"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:346
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:57
 msgid "Render All"
-msgstr "顯示全部"
+msgstr "呈現全部"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:482
 msgid "Render Problem"
-msgstr "顯示問題"
+msgstr "呈現問題"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:58
 msgid "Render all problems on the page. This does not reload the page or save or reset changes."
-msgstr "將所有問題渲染在頁面上。這不會重新載入頁面，也不會儲存或重置變更。"
+msgstr "在頁面上呈現所有的問題。這不會重新載入頁面，也不會儲存或重置變更。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorPGProblemEditor.html.ep:109
 msgid "Render or re-render the problem, course info file, or set header being edited. This does not change the permanent file on the disk. You can view different versions of the same problem by changing the seed. You can also change the manner in which the mathematics is typeset. If \"Open in new window\" is checked, then the problem will open in a new tab or window showing the problem as it will be rendered for students in the set."
-msgstr "渲染或重新渲染正在編輯的問題、課程訊息檔案或題組標題。這不會改變磁碟上的永久檔案。你可以通過更改種子來查看同一問題的不同版本。你還可以變更數學排版的方式。如果勾選「在新視窗中開啟」，那麼問題將在新頁面或視窗中打開，顯示此題組渲染給學生的樣子。"
+msgstr "呈現或重新呈現正在編輯的問題、課程訊息檔案或題組標題。這不會改變磁碟上的永久檔案。你可以通過更改種子來查看同一問題的不同版本。你還可以變更數學排版的方式。如果勾選「在新視窗中開啟」，那麼問題將在新頁面或視窗中打開，顯示此題組呈現給學生的樣子。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:130
 msgid "Rendering Problems"
-msgstr "顯示問題"
+msgstr "呈現問題"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:343
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:51
@@ -6804,7 +6804,7 @@ msgstr "通報錯誤"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/PGProblemEditor.html.ep:148
 msgid "Report bugs in a WeBWorK question/problem using this link. The very first time you do this you will need to register with an email address so that information on the bug fix can be reported back to you."
-msgstr "使用此連結通報 WeBWorK 問題中的錯誤。第一次執行此操作時，你需要使用電子郵件地址註冊，以便回報錯誤修復的訊息給你。"
+msgstr "使用此連結通報 WeBWorK 問題中的錯誤。第一次執行此操作時，你需要使用電子郵件位址註冊，以便回報錯誤修復的訊息給你。"
 
 #. ($upgrade_courseID)
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/CourseAdmin.pm:1420
@@ -7051,7 +7051,7 @@ msgstr "Robe of Longevity"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Scoring.pm:32
 msgid "SECTION"
-msgstr "班級"
+msgstr "班別"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Scoring.pm:216
 msgid "SET NAME"
@@ -7189,7 +7189,7 @@ msgstr "將檔案儲存到："
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorPGProblemEditor.html.ep:144
 msgid "Save the contents of the editor window to the file on disk and re-render the problem. If \"Open in new window\" is checked, then the problem will open in a new tab or window showing the problem as it will be rendered for students in the set. If \"Create backup\" is checked then a backup of the current file on disk will be created before overwriting it with the contents of the editor window. If a backup already exists, then a \"Delete oldest backup\" check box will be present. If that is checked, then the oldest backup will be deleted when \"Save\" is clicked. These backups can be reverted to and managed on the \"Revert\" tab."
-msgstr "將編輯器視窗的內容儲存到磁碟上並重新渲染問題。如果勾選「在新視窗中開啟」，則該問題將在新分頁或視窗中打開，顯示學生在此組題中的渲染效果。如果勾選「建立備份」，則在將編輯器視窗內容覆蓋到磁碟上的檔案之前，會先建立一個目前檔案的備份。如果已經存在備份，則會出現「刪除最舊備份」選項框。如果勾選該選項，則在點擊「儲存」時會刪除最舊的備份。這些備份可以在「回復」分頁中進行回復和管理。"
+msgstr "將編輯器視窗的內容儲存到磁碟上並重新呈現問題。如果勾選「在新視窗中開啟」，則該問題將在新分頁或視窗中打開，顯示學生在此組題中的呈現效果。如果勾選「建立備份」，則在將編輯器視窗內容覆蓋到磁碟上的檔案之前，會先建立一個目前檔案的備份。如果已經存在備份，則會出現「刪除最舊備份」選項框。如果勾選該選項，則在點擊「儲存」時會刪除最舊的備份。這些備份可以在「回復」分頁中進行回復和管理。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorAchievementNotificationEditor.html.ep:29
 msgid "Save the contents of the editor window to the file on disk."
@@ -7215,7 +7215,7 @@ msgstr "儲存的課程地圖。"
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/PGProblemEditor.pm:748
 #: /opt/webwork/webwork2/lib/WebworkWebservice/CourseActions.pm:534
 msgid "Saved to file \"%1\""
-msgstr "儲存到檔案 \"%1\""
+msgstr "儲存到檔案「%1」"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/CourseAdmin.pm:2478
 msgid "Schema and database field definitions do not agree"
@@ -7245,7 +7245,7 @@ msgstr "發佈所需的分數"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/instructor_links.html.ep:60
 msgid "Score one or more sets. This can also be done from the \"Sets Manager\" or from the \"Instructor Tools\", but the \"Scoring Tools\" page allows control over parameters."
-msgstr "評分一個或多個題組。這也可以在「題組管理器」或「講師工具」中完成，但「評分工具」頁面允許控制參數。"
+msgstr "給分一個或多個題組。這也可以在「題組管理器」或「講師工具」中完成，但「分數工具」頁面允許控制參數。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Scoring.html.ep:62
 msgid "Score selected set(s) and save to:"
@@ -7266,28 +7266,28 @@ msgstr "評分哪些題組？"
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ShowAnswers.pm:215
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/Scoring.html.ep:101
 msgid "Scores"
-msgstr "評分"
+msgstr "分數"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorFileManager.html.ep:65
 msgid "Scoring (\".csv\") files"
-msgstr "評分檔 (\".csv\")"
+msgstr "分數檔（\".csv\"）"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/Utils/Routes.pm:438
 msgid "Scoring Download"
-msgstr "評分下載"
+msgstr "分數下載"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Grades.pm:118
 msgid "Scoring Message"
-msgstr "評分訊息"
+msgstr "分數訊息"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/Utils/Routes.pm:433
 #: /opt/webwork/webwork2/templates/HelpFiles/instructor_links.html.ep:58
 msgid "Scoring Tools"
-msgstr "評分工具"
+msgstr "分數工具"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorScoring.html.ep:17
 msgid "Scoring Tools Help"
-msgstr "評分工具說明"
+msgstr "分數工具說明"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:329
 msgid "Screen and Hardcopy set header information can not be overridden for individual students."
@@ -7308,7 +7308,7 @@ msgstr "Scroll of Resurrection"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/UserList/user_list.html.ep:63
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/UsersAssignedToSet.html.ep:38
 msgid "Section"
-msgstr "班級"
+msgstr "班別"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/AddUsers/student_entry_report.html.ep:17
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker/browse_library_panel_advanced.html.ep:33
@@ -7319,7 +7319,7 @@ msgstr "小節："
 #. ($sec ne '' ? $sec : $blankName)
 #: /opt/webwork/webwork2/lib/WeBWorK/Utils/FilterRecords.pm:114
 msgid "Section: %1"
-msgstr "班級：%1"
+msgstr "班別：%1"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:182
 msgid "See \"Reduced Scoring Date\"."
@@ -7477,7 +7477,7 @@ msgstr "選擇你要隱藏（或取消隱藏）的課程，然後點擊「隱藏
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:91
 msgid "Select the display mode used to render the problems on this page."
-msgstr "選擇用於在這個頁面上渲染問題的顯示模式。"
+msgstr "選擇用於在這個頁面上呈現問題的顯示模式。"
 
 #. ('<code>courseName_totals.csv</code>')
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorScoring.html.ep:30
@@ -7635,7 +7635,7 @@ msgstr "題組資訊"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/admin_links.html.ep:50
 msgid "Set LMS context ids for courses to map LMS courses to WeBWorK courses for content item selection."
-msgstr "為課程設置 LMS 內容識別碼，以便將 LMS 課程對應到 WeBWorK 課程，用於內容項目選擇。"
+msgstr "為課程設置 LMS 的 Context ID，以便將 LMS 課程對應到 WeBWorK 課程，用於內容項目選擇。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetList/set_list_table.html.ep:20
 msgid "Set List"
@@ -7869,7 +7869,7 @@ msgstr "顯示自動答案反饋"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ConfigValues.pm:767
 msgid "Show correct answer \"Reveal\" button always"
-msgstr "始終顯示顯示正確答案「顯示」按鈕"
+msgstr "始終顯示正確答案「顯示」按鈕"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/SetMaker/problem_row.html.ep:30
 msgid "Show less like this"
@@ -8230,7 +8230,7 @@ msgstr "學生答案"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetList.html.ep:83
 msgid "Student scores for the sets selected below will be calculated. This and other scoring operations can also be done using the \"Scoring Tools\" link."
-msgstr "底下所選題組的學生分數將被計算。這個以及其他評分操作也可以使用「評分工具」連結來完成。"
+msgstr "底下所選題組的學生分數將被計算。這個以及其他評分操作也可以使用「分數工具」連結來完成。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorUserList.html.ep:86
 msgid "Student:"
@@ -8590,11 +8590,11 @@ msgstr "要求將 %1 的容識別碼設定為與 %2 的相同，但這兩個課�
 #: /opt/webwork/webwork2/templates/ContentGenerator/Problem/messages.html.ep:56
 #: /opt/webwork/webwork2/templates/ContentGenerator/ShowMeAnother/messages.html.ep:45
 msgid "The correct answers shown in feedback are instructor previews and will only be shown to students after the answer date."
-msgstr "反饋中顯示的正確答案是供教師預覽，只有在回答日期之後才會顯示給學生。"
+msgstr "反饋中顯示的正確答案為教師預覽，只有在回答日期之後才會顯示給學生。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:589
 msgid "The correct answers shown in feedback are instructor previews and will only be shown to students when answers are available."
-msgstr "反饋中顯示的正確答案是供教師預覽，學生只有在答案開放時才能看到。"
+msgstr "反饋中顯示的正確答案為教師預覽，學生只有在答案開放時才能看到。"
 
 #. ($archive_courseID,					$archive_path)
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/archive_course_confirm.html.ep:89
@@ -8658,7 +8658,7 @@ msgstr "指定的目錄不存在"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ConfigValues.pm:795
 msgid "The email verbosity level controls how much information is automatically added to feedback emails. Levels are<ol><li> Simple: send only the feedback comment and context link</li><li> Standard: as in Simple, plus user, set, problem, and PG data</li><li> Debug: as in Standard, plus the problem environment (debugging data)</li></ol>"
-msgstr "郵件的詳細程度控制自動新增到反饋郵件中的資訊多寡。詳盡層級分為：<ol><li>簡單：僅發送反饋評註和上下文連結</li><li>標準：如同簡單，另外包括使用者、題組、題目和 PG 資料</li><li>除錯：如同標準，另外包括題目環境（除錯資料）</li></ol>"
+msgstr "郵件的詳細程度控制自動新增到反饋郵件中的資訊多寡。詳盡層級分為：<ol><li>簡單：僅發送反饋評註和內容連結</li><li>標準：如同簡單，另外包括使用者、題組、題目和 PG 資料</li><li>除錯：如同標準，另外包括題目環境（除錯資料）</li></ol>"
 
 #. (ref($@)
 #: /opt/webwork/webwork2/lib/Mojolicious/WeBWorK/Tasks/SendInstructorEmail.pm:46
@@ -8748,7 +8748,7 @@ msgstr "不允許附加檔案「%1」的檔案類型。"
 #. (scalar(@existing_files)
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm:566
 msgid "The following %plural(%1,file already exists,files already exist). Check \"Overwrite existing files silently\" to unpack %plural(%1,this file,these files)."
-msgstr "以下 %plural(%1, 檔案已存在, 檔案已存在)。勾選「靜默覆蓋現有檔案」來解壓縮 %plural(%1, 此檔案, 這些檔案)。"
+msgstr "以下 %plural(%1, 檔案已存在, 檔案已存在)。勾選「直接覆寫現有檔案」來解壓縮 %plural(%1, 此檔案, 這些檔案)。"
 
 #. (scalar(@outside_files)
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm:538
@@ -9001,7 +9001,7 @@ msgstr "此問題的分數可以計入問題 %1 的分數。"
 #. ('<code>courseName_totals.csv</code>')
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorFileManager.html.ep:68
 msgid "The scoring files are stored in the scoring directory and are produced using the \"Scoring Tools\" page or the scoring command in the \"Instructor Tools\" module. These files can be downloaded, modified in a spreadsheet (for example, to add midterm scores) and then uploaded again to the scoring directory to be merged with email messages. (Use a new file name, other than %1, when uploading to prevent the scoring module from overwriting an uploaded file.)"
-msgstr "評分檔存儲在 scoring 目錄中，並使用「評分工具」頁面或「教師工具」模組中的評分指令產生。這些檔案可以下載並在試算表中修改（例如，新增期中考試成績），然後再上傳到 scoring 目錄中與電子郵件訊息合併。（上傳時請使用新的文件名，而不是 %1，以防評分模組覆蓋已上傳的檔案。）"
+msgstr "分數檔存儲在 scoring 目錄中，並使用「分數工具」頁面或「教師工具」模組中的分數指令產生。這些檔案可以下載並在試算表中修改（例如，新增期中考試成績），然後再上傳到 scoring 目錄中與電子郵件訊息合併。（上傳時請使用新的文件名，而不是 %1，以防評分模組覆蓋已上傳的檔案。）"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorSetMaker.html.ep:52
 msgid "The second row of the problem collection area is for browsing directories. The OPL will be there as well as any other directories that you may set up (for example Contrib). If this is selected, all subdirectories containing problems will be listed."
@@ -9064,7 +9064,7 @@ msgstr "該解答已被刪除。"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Problem/messages.html.ep:45
 #: /opt/webwork/webwork2/templates/ContentGenerator/ShowMeAnother/messages.html.ep:33
 msgid "The solution shown is an instructor preview and will only be shown to students after the answer date."
-msgstr "解答顯示是是供講師預覽，只有在回答日期之後才會顯示給學生。"
+msgstr "解答顯示為講師預覽，只有在回答日期之後才會顯示給學生。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:571
 msgid "The solution shown is an instructor preview and will only be shown to students when answers are available."
@@ -9128,7 +9128,7 @@ msgstr "課程 %1 的標題現在是 %2"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Grades/student_stats.html.ep:16
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/StudentProgress/set_progress.html.ep:196
 msgid "The top number is the percent score on the problem.  A period (.) indicates a problem has not been attempted. The bottom number is the number of incorrect attempts."
-msgstr "最上面的數字是問題的百分比分數。句號 (.) 表示尚未嘗試問題。底部的數字是不正確嘗試的次數。"
+msgstr "最上面的數字是問題的百分比分數。句號 (.) 表示問題尚未嘗試。底部的數字是不正確嘗試的次數。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/Grades.html.ep:25
 msgid "The total grade row at the bottom shows the total score and percent average over all open assignments.  The total grade row can be shown/hidden under general course configuration settings."
@@ -9367,7 +9367,7 @@ msgstr "這個動作不會覆蓋現有的使用者。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorFileManager.html.ep:20
 msgid "This allows for the viewing, downloading, uploading and other management of files in the course. Select a file or set of files (using CTRL or SHIFT) and click the desired button on the right. Many actions can only be done with a single file (like view). Selecting a directory or set of files and clicking \"Make Archive\" allows the creation of a compressed tar or zip file."
-msgstr "這允許查看、下載、上傳和課程中檔案的其他管理。選取一個檔案或一組檔案（使用 CTRL 或 SHIFT）並點擊右側的所需按鈕。許多動作只能針對單一檔案進行（例如查看）。選取一個目錄或一組檔案並點擊「建立封存檔」可以建立一個壓縮的 tar 或 zip 檔案。"
+msgstr "這允許查看、下載、上傳和課程中檔案的其他管理。選取一個檔案或一組檔案（使用 CTRL 或 SHIFT）並點擊右側的所需按鈕。許多動作只能針對單一檔案進行（例如查看）。選取一個目錄或一組檔案並點擊「建立壓縮檔」可以建立一個壓縮的 tar 或 zip 檔案。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorSetMaker.html.ep:34
 msgid "This browses the Open Problem Library (OPL) in category (Subject/Chapter/Section) form. Select the desired categories (all three do not need to be selected) and click \"View Problems\". If the \"Include Contrib\" box is selected then those problems in the Contrib section of the OPL that have the categories defined are also included. Contrib problems are problem that haven't been vetted as thoroughly as OPL problems. If you want hints or solutions included while browsing select the appropriate box."
@@ -9462,7 +9462,7 @@ msgstr "這是一個計時測驗。你有 %quant(%1, 小時) 和 %quant(%2, 分�
 #. ($hours,					$minutes)
 #: /opt/webwork/webwork2/templates/ContentGenerator/ProblemSet/version_list.html.ep:119
 msgid "This is a timed test. You will have %quant(%1,hour,hours,)%quant(%2,minute,minutes,) to complete the test."
-msgstr "這是一個計時測驗。你有 %quant(%1, 小時, 小時, ) 和 %quant(%2, 分鐘, 分鐘, ) 的時間來完成測驗。"
+msgstr "這是一個計時測驗。你有 %quant(%1, 小時, 小時, )%quant(%2, 分鐘, 分鐘, ) 的時間來完成測驗。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorUserList.html.ep:80
 msgid "This is done by first entering the user as a student and then changing the permission level of the user. First edit the user by clicking on the pencil next to their name (or using the technique above for several users), then change their permssion level -- an entry blank at the far right of the screen, you may have to scroll to see it. The permission levels are"
@@ -9546,7 +9546,7 @@ msgstr "這是儲存郵件訊息與範本的地方。你可以在此目錄上傳
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorPGProblemEditor.html.ep:77
 msgid "This is where you edit the text of the problem template. Type Ctrl-Enter while this window has focus to re-render the problem. Code folding is enabled either by clicking on the triangles in the gutter next to line numbers or using the shortcut Shift-Ctrl-F.  Folding all regions can be accomplished with Shift-Ctrl-A and unfold all regions with Shift-Ctrl-G. Comments can be toggled with Ctrl-/."
-msgstr "這裡是你編輯問題範本文字的地方。按 Ctrl-Enter 可在此視窗重新渲染問題。透過點擊行號旁邊的三角形或使用快捷鍵 Shift-Ctrl-F 可啟用摺疊程式碼。按 Shift-Ctrl-A 可折疊所有區域，按 Shift-Ctrl-G 可展開所有區域。按 Ctrl-/ 可切換評註。"
+msgstr "這裡是你編輯問題範本文字的地方。按 Ctrl-Enter 可在此視窗重新呈現問題。透過點擊行號旁邊的三角形或使用快捷鍵 Shift-Ctrl-F 可啟用摺疊程式碼。按 Shift-Ctrl-A 可折疊所有區域，按 Shift-Ctrl-G 可展開所有區域。按 Ctrl-/ 可切換評註。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/GatewayQuiz.html.ep:661
 msgid "This is your last submission.  If you say yes, then your answers will be final, and you will not be able to continue to work this test version."
@@ -9888,7 +9888,7 @@ msgstr "對於這個問題"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorScoring.html.ep:69
 msgid "To use the Email merge feature, upload a CSV with calculated grades to the scoring directory using the \"File Manager\"."
-msgstr "要使用電子合併列印功能，使用「檔案管理器」將包含計算成績的 CSV 檔上傳至評分目錄。"
+msgstr "要使用電子合併列印功能，使用「檔案管理器」將包含計算成績的 CSV 檔上傳至 scoring 目錄。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:906
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetList/import_form.html.ep:65
@@ -10129,11 +10129,11 @@ msgstr "解鎖測驗的額外版本。如果在測驗結束日期之前使用，
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager.html.ep:45
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/refresh.html.ep:54
 msgid "Unpack Archive"
-msgstr "解壓縮封存檔"
+msgstr "解壓縮檔案"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/refresh.html.ep:120
 msgid "Unpack archives automatically"
-msgstr "自動解壓縮封存檔"
+msgstr "自動解壓縮檔案"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/upgrade_course_form.html.ep:15
 msgid "Unselect all courses"
@@ -10251,7 +10251,7 @@ msgstr "上傳"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/instructor_links.html.ep:72
 msgid "Upload, download and delete text files, including scoring spread sheets, set definition files, class list spread sheets, and \"PG\" problems."
-msgstr "上傳、下載和刪除文字檔，包括評分試算表，題組定義檔，班級名單試算表以及「PG」問題。"
+msgstr "上傳、下載和刪除文字檔，包括分數試算表，題組定義檔，班級名單試算表以及「PG」問題。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:294
 msgid "Use Default Header File"
@@ -10289,7 +10289,7 @@ msgstr "在新成就中使用："
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Options.html.ep:153
 msgid "Use live equation rendering?"
-msgstr "使用即時方程式渲染？"
+msgstr "使用即時方程式呈現？"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ConfigValues.pm:651
 msgid "Use log base 10 instead of base <i>e</i>"
@@ -10321,7 +10321,7 @@ msgstr "使用以下介面快速存取常用的講師工具。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorSetMaker.html.ep:26
 msgid "Use the options in the second box to pick a collection of problems decribed below. In each case, clicking \"View Problems\" will render a fixed number of problems (default of 20). After problems are shown, there will be options to show the next/previous batch of problems, add all problems to the target set (set at the top of the page) or clear the curent batch of problems."
-msgstr "使用第二個方框中的選項來選擇下方描述的一組問題。在每種狀況下，點擊「查看問題」將顯示固定數量的問題（預設為 20）。顯示問題後，會有選項來顯示下一批／上一批問題，將所有問題新增到目標題組（頁面頂部的題組）或清除當前一批問題。"
+msgstr "使用第二個方框中的選項來選擇下方描述的一組問題。在每種狀況下，點擊「查看問題」將呈現固定數量的問題（預設為 20）。在顯示問題後，會有選項來顯示下一批／上一批問題，將所有問題新增到目標題組（頁面頂部的題組）或清除當前一批問題。"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Feedback.html.ep:27
 msgid "Use this form to ask your instructor a question, to report a problem with the WeBWorK system, or to report an error in a problem you are attempting. Along with your message, additional information about the state of the system will be included."
@@ -10582,17 +10582,17 @@ msgstr "查看暫存檔：%1"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetList/sort_form.html.ep:17
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetList/sort_form.html.ep:52
 msgid "Visibility"
-msgstr "顯示狀況"
+msgstr "可見性"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/Utils/FilterRecords.pm:157
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetList/publish_form.html.ep:19
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetList/set_list_table.html.ep:5
 msgid "Visible"
-msgstr "可見"
+msgstr "可見性"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/LTI/content_item_selection.html.ep:32
 msgid "Visible Sets"
-msgstr "可見題組"
+msgstr "可見的題組"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm:162
 msgid "Visible to Students"
@@ -10651,7 +10651,7 @@ msgstr "WeBWorK 目前已翻譯課程配置中所列出的語言。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorScoring.html.ep:20
 msgid "WeBWorK does not have a full featured scoring ability. We leave that to your favorite spreadsheet application."
-msgstr "WeBWorK 沒有完整的評分功能。我們將此留給你喜愛的試算表應用程式。"
+msgstr "WeBWorK 沒有完整的分數功能。我們將此留給你喜愛的試算表應用程式。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorFileManager.html.ep:37
 msgid "WeBWorK expects many files to be in certain locations. The following describe this. Note that by default the File Manager shows the \"templates\" directory. Other directories mentioned below are at the same level and need to be accessed by going up a directory by clicking the \"^\" button above the file list."
@@ -10751,7 +10751,7 @@ msgstr "查看單個學生的進度時，會顯示其成績頁面，列出指派
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorStats.html.ep:26
 msgid "When viewing set statistics, the drop down menus can be used to show stats for individual sections, recitations, or problems.  The overall results include all students who are assigned to the set, while the individual problem results only include active (have attempted the problem) students."
-msgstr "在查看題組統計時，可以使用下拉選單顯示個別班級、修讀課程或問題的統計資料。整體結果包括所有被指派到該題組的學生，而個別問題的結果僅包括活躍（已嘗試該問題）的學生。"
+msgstr "在查看題組統計時，可以使用下拉選單顯示個別班別、修讀課程或問題的統計資料。整體結果包括所有被指派到該題組的學生，而個別問題的結果僅包括活躍（已嘗試該問題）的學生。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorStudentProgress.html.ep:24
 msgid "When viewing student progress for a set, the score for the set and the status for problems in the set are listed for all students.  The table can be sorted by clicking the links in the table header.  Click the student's name to access the student's set.  When viewing progress for a test, additional columns can be shown/hidden by updating the display at the top"
@@ -11094,7 +11094,7 @@ msgstr "你只能解壓縮以 \".zip\"、\".tgz\"、\".tar \" 或 \". tar.gz\" �
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:132
 msgid "You can render a problem by clicking the \"Render Problem\" icon to the right of the problem number. The display mode used to render the problem is chosen using the drop down menu. You can render all problems using the \"Render All\" button. \"Hide All\" will hide all rendered problems. It is also useful to collapse problem details when doing this, as it makes it easier to drag problems around."
-msgstr "你可以點擊題號右側的「渲染問題」圖示來以渲染問題。用於渲染問題的顯示模式可以使用下拉選單選擇。你可以使用「渲染全部」按鈕來渲染所有問題。「隱藏全部」將隱藏所有渲染的問題。當這麼做時，收折問題細節會使得拖曳問題更容易。"
+msgstr "你可以點擊題號右側的「呈現問題」圖示來呈現問題。用於呈現問題的顯示模式可以使用下拉選單選擇。你可以使用「呈現全部」按鈕來呈現所有問題。「隱藏全部」將隱藏所有呈現的問題。當這麼做時，收折問題細節會使得拖曳問題更容易。"
 
 #: /opt/webwork/webwork2/templates/HelpFiles/InstructorProblemSetDetail.html.ep:118
 msgid "You can reorder problems by clicking on the arrow icon and dragging the problem. You will see a box showing you where the problem will be placed. When problems are reordered any holes in the numbering will be filled in."
@@ -11265,7 +11265,7 @@ msgstr "你可以限制學生嘗試該問題的次數。使用 -1 表示嘗試�
 
 #: /opt/webwork/webwork2/templates/HelpFiles/AdminUnarchiveCourse.html.ep:30
 msgid "You may check the box to \"clean\" the unarchived course. This will remove student users and their associated data from the database after the course is unarchived. It will also remove the log files, any files in the scoring folder, and any temporary edited files."
-msgstr "你可以勾選「清理」解封課程。在課程解除封存後將從資料庫中移除學生使用者及其相關資料。這也將移除日誌檔、評分資料夾中的任何檔案以及任何臨時編輯檔案。"
+msgstr "你可以勾選「清理」解封課程。在課程解除封存後將從資料庫中移除學生使用者及其相關資料。這也將移除日誌檔、scoring 資料夾中的任何檔案以及任何臨時編輯檔案。"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/ShowMeAnother.pm:483
 msgid "You may check your answers to this problem without affecting the maximum number of tries to your original problem."
@@ -11743,7 +11743,7 @@ msgstr "空白"
 # Context is "Append ____ blank problem template(s) to end of homework set"
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/ProblemSetDetail.html.ep:702
 msgid "blank problem template(s) to end of homework set"
-msgstr "將空白的題目範本新增到作業題組的末尾"
+msgstr "空白題目範本新增到作業題組的末尾"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/archive_course_form.html.ep:17
 #: /opt/webwork/webwork2/templates/ContentGenerator/CourseAdmin/delete_course_form.html.ep:17
@@ -12171,7 +12171,7 @@ msgstr "測驗時間"
 
 #: /opt/webwork/webwork2/templates/ContentGenerator/Instructor/FileManager/refresh.html.ep:126
 msgid "then delete them"
-msgstr "然後刪除它們"
+msgstr "然後刪除"
 
 #: /opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Instructor/StudentProgress.pm:176
 msgid "time limit exceeded"
